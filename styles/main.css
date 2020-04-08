@@ -1,0 +1,86 @@
+.about {
+  background: url(../img/about/why.jpg) no-repeat center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__title {
+  font-size: 45px;
+  color: #fff;
+  margin: 30px;
+
+  font-weight: lighter;
+}
+
+.about__item-first {
+  position: relative;
+}
+
+.about__item-text-left {
+  position: absolute;
+  top: 40px;
+  left: 190px;
+}
+
+.about__item-text-right {
+  width: 35%;
+  position: absolute;
+  top: 55px;
+  right: 165px;
+  line-height: 1;
+}
+
+.about__item-text-left-last {
+  top: 60px;
+}
+
+.about__item-text-right-last {
+  top: 80px;
+}
+
+/*следующие стили для элементов, которые имеют псевдоклассы */
+.text-left-one,
+.text-left-two{
+  top: 20px
+}
+
+.text-left-one::after {
+  content: "100";
+  font-size: 50px;
+}
+
+.text-left-two::before {
+  content: "10";
+  font-size: 50px;
+}
+/*дальше снова идут стили по списку*/
+
+
+.about__item-img {
+  width: 85%;
+  padding: 20px;
+}
+
+.about__item-two {
+  position: relative;
+}
+
+.about__item-three {
+  position: relative;
+}
+
+.about__item-last {
+  position: relative;
+  padding: 20px 0 50px 0;
+}
+
+
+
