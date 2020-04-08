@@ -1,0 +1,321 @@
+@media (max-width: 1420px) {
+  .head__contacts-number-text {
+    letter-spacing: 0;
+    font-size: 16px;
+    position: relative;
+  }
+}
+
+@media (max-width: 1366px) {
+  .head__contacts-number {
+    text-align: center;
+    width: 100%;
+  }
+
+  .head__contacts-link {
+    width: 100%;
+  }
+
+  .nav__items {
+      font-size: 14px;
+  }
+
+  .nav__items:hover {
+    border-bottom: .5px solid #409c29;
+  }
+
+  .head__logo {
+    padding: 0 0 0 5%;
+  }
+
+  .head__logo-img {
+    width: 65%;
+  }
+
+  .about__title {
+    font-size: 30px;
+  }
+
+  .image-line {
+    width: 200px;
+  }
+
+  .about__item-first,
+  .about__item-two,
+  .about__item-three,
+  .about__item-last
+  {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about__item-img {
+    width: 55%;
+  }
+
+  .text-left {
+    font-size: 14px;
+  }
+
+  .text-right {
+    font-size: 10px;
+  }
+
+  .text-left-one::after {
+       font-size: 30px;
+     }
+  .text-left-two::before {
+    font-size: 30px;
+  }
+
+  .about__item-text-right {
+    width: 15%;
+    right: 280px;
+  }
+
+  .about__item-text-left {
+    top: 30px;
+    left: 300px;
+  }
+
+  .about__item-text-left-last {
+    top: 50px;
+  }
+
+  .about__item-text-right-last {
+    top: 70px;
+  }
+
+  .wrap-inner-title {
+    margin: 15px;
+  }
+
+  .youget__title {
+    font-size: 30px;
+    padding: 20px 25px 0 25px;
+  }
+
+  .youget__title-min {
+    font-size: 20px;
+    padding: 0;
+  }
+
+  .youget__item-img {
+    width: 20%;
+  }
+
+  .text {
+    font-size: 14px;
+  }
+
+  .youget__item-element {
+    height: 40px;
+  }
+
+  .truck__title {
+    font-size: 30px;
+    padding: 20px 25px 0 25px;
+  }
+
+  .truck__title-min {
+    font-size: 20px;
+    padding: 0;
+  }
+
+  .truck__item-text {
+    font-size: 12px;
+  }
+
+  .truck__item-elem {
+    width: 15px;
+    height: 1px;
+  }
+
+  .footer__logo {
+    width: 15%;
+  }
+
+  .footer-font   {
+    font-size: 10px;
+  }
+
+  .footer__logo-fresh-text-black {
+   font-size: 12px;
+
+  }
+
+  .footer__logo-fresh-text-orange {
+   font-size: 12px;
+  }
+}
+/*
+@media (max-width: 1190px) {
+  .head__contacts-link-text {
+    font-size: 14px;
+  }
+
+  .head__contacts-number-text {
+    font-size: 14px;
+  }
+
+  .about__item-text-left {
+    top: 20px;
+    left: 250px;
+  }
+
+  .about__item-text-left-last {
+    top: 45px;
+  }
+
+  .about__item-text-right {
+    width: 20%;
+    top: 40px;
+    right: 220px;
+  }
+
+  .about__item-text-right-last {
+    top: 65px;
+  }
+
+  .youget__item-element {
+    width: 1px;
+    height: 40px;
+  }
+
+  .truck__item-img {
+    padding: 15px;
+    width: 100px;
+    height: 30px;
+  }
+
+  .truck__item {
+    height: 150px;
+  }
+
+  .truck__item-elem {
+    height: 0.8px;
+  }
+
+  .footer-font {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 1090px) {
+  .about__item-text-right {
+    width: 20%;
+    top: 40px;
+    right: 200px;
+  }
+
+  .about__item-text-right-last {
+    top: 60px;
+  }
+
+  .youget__title {
+    font-size: 20px;
+    padding: 15px 25px 0 25px;
+  }
+
+  .youget__title-min {
+    font-size: 12px;
+    padding: 0;
+  }
+
+  .truck__title {
+    font-size: 20px;
+    padding: 15px 25px 0 25px;
+  }
+
+  .truck__title-min {
+    font-size: 12px;
+    padding: 0;
+  }
+}
+
+
+@media (max-width: 1065px) {
+  .about__item-text-left {
+    top: 20px;
+    left: 220px;
+  }
+
+  .about__item-text-left-last {
+    top: 45px;
+  }
+
+  .about__item-text-right {
+    top: 40px;
+    right: 200px;
+  }
+
+  .about__item-text-right-last {
+    top: 65px;
+  }
+
+  .text-left {
+    font-size: 12px;
+  }
+
+  .text-right {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 990px) {
+  .head__logo,
+  .image-line,
+  .head__contacts-number-text::before {
+    display: none;
+  }
+
+  .nav {
+    padding: 20px;
+    width: 50%;
+  }
+
+  .head__contacts-number-text,
+  .head__contacts-number-text {
+    font-size: 12px;
+  }
+
+  .about__title {
+    font-size: 20px;
+    margin: 20px;
+  }
+
+  .text-left-one::after {
+    font-size: 20px;
+  }
+  .text-left-two::before {
+    font-size: 20px;
+  }
+
+  .about__item-text-right {
+    top: 30px;
+    right: 170px;
+  }
+
+  .about__item-text-right-last {
+    top: 50px;
+  }
+
+  .youget__item {
+    padding: 5px;
+  }
+
+  .text {
+    font-size: 12px;
+  }
+
+  .youget__item-img {
+    width: 15%;
+  }
+
+  .youget__item-element {
+    width: .5px;
+    height: 30px;
+  }
+}
+
+*/
